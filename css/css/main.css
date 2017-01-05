@@ -290,6 +290,7 @@ svg path {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   animation-delay: 1s;
+  font-weight: 600;
 }
 
 .top_wrapper .top_text h1 {

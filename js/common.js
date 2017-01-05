@@ -62,11 +62,8 @@ $(document).ready(function() {
 			url: "../mail.php",
 			data: $("#callback").serialize()
 		}).done(function() {
-<<<<<<< HEAD
 			alert("Сообщение отправлено!");
-=======
 			alert("Сообщение успешно отправлено!");
->>>>>>> origin/master
 			setTimeout(function() {
 				$.fancybox.close();
 			}, 1000);
