@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-/*	$("#portfolio_grid").mixItUp();
+	$("#portfolio_grid").mixItUp();
 
 	$(".s_portfolio li").click(function() {
 		$(".s_portfolio li").removeClass("active");
 		$(this).addClass("active");
 	});
-*/
+
 	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({
 		type:"inline",
@@ -77,10 +77,7 @@ $(document).ready(function() {
 
 // Загружает анимацию на главной странице
 $(window).load(function() {
-
-	$(".loader_inner").delay(600).fadeOut();
-	$(".loader").delay(400).fadeOut("slow");
-
+	
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_text p").animated("fadeInUp", "fadeOutDown");
 
